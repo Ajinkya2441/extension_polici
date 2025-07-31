@@ -1,0 +1,77 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f9fb;
+    color: #222;
+}
+header {
+    background: #1a73e8;
+    color: #fff;
+    padding: 1.5rem 0 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+header h1 {
+    margin: 0 0 0.5rem 0;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+nav {
+    margin-bottom: 0.5rem;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1.2rem;
+    font-weight: 500;
+    transition: text-decoration 0.2s;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    max-width: 700px;
+    margin: 2.5rem auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(30,42,80,0.08);
+    padding: 2.5rem 2rem;
+}
+.intro h2, .policy h2 {
+    color: #1a73e8;
+    margin-top: 0;
+}
+.intro ul, .policy ul {
+    margin: 1.2rem 0 1.5rem 1.5rem;
+}
+.cta {
+    display: inline-block;
+    background: #1a73e8;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    box-shadow: 0 2px 8px rgba(26,115,232,0.08);
+    transition: background 0.2s;
+}
+.cta:hover {
+    background: #155ab6;
+}
+footer {
+    text-align: center;
+    color: #888;
+    font-size: 0.95rem;
+    margin: 2rem 0 1rem 0;
+}
+@media (max-width: 600px) {
+    main {
+        padding: 1.2rem 0.5rem;
+    }
+    header h1 {
+        font-size: 1.4rem;
+    }
+}
